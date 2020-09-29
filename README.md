@@ -1,1 +1,5 @@
-# hackerrank
+
+___ 
+
+> Practicing hackerrank problems ( in java )
+___ 
