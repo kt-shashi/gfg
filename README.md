@@ -1,7 +1,9 @@
 
 ___ 
 
-> Practicing gfg problems ( in java )
+# Practicing gfg problems 
+
+> Language : Java
 
 Added:
 - Kadane's Algorithm 
