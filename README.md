@@ -1,5 +1,5 @@
 
 ___ 
 
-> Practicing hackerrank problems ( in java )
+> Practicing gfg problems ( in java )
 ___ 
