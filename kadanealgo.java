@@ -1,0 +1,53 @@
+import java.io.*;
+
+class Array {
+    
+	public static void main (String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int t = Integer.parseInt(br.readLine().trim()); //Inputting the testcases
+		while(t-->0){
+		    int n = Integer.parseInt(br.readLine().trim());
+		    int arr[] = new int[n];
+		    String inputLine[] = br.readLine().trim().split(" ");
+		    for(int i=0; i<n; i++){
+		        arr[i] = Integer.parseInt(inputLine[i]);
+		    }
+		    
+		    Kadane obj = new Kadane();
+		    
+		    System.out.println(obj.maxSubarraySum(arr, n));
+		}
+	}
+}
+
+// } Driver Code Ends
+
+
+class Kadane{
+    
+    // Function to find subarray with maximum sum
+    // arr: input array
+    // n: size of array
+    int maxSubarraySum(int a[], int n){
+        
+        int currentSum = 0;
+        int maxSum = Integer.MIN_VALUE;
+
+        for (int i = 0; i < n; i++) {
+            currentSum += a[i];
+
+            if (currentSum > maxSum)
+                maxSum = currentSum;
+
+
+            if (currentSum < 0)
+                currentSum = 0;
+
+        }
+
+        return maxSum;
+        
+    }
+    
+}
+
