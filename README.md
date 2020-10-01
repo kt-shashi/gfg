@@ -10,4 +10,5 @@ Added:
 - Paranthesis checker
 - Longest substring
 - Trapping Rain Water
+- Reverse Linked list
 ___ 
