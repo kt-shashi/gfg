@@ -9,4 +9,5 @@ Added:
 - Kadane's Algorithm 
 - Paranthesis checker
 - Longest substring
+- Trapping Rain Water
 ___ 
