@@ -1,7 +1,7 @@
 
 ___ 
 
-# Practicing gfg problems 
+# Gfg problems solutions 
 
 > Language : Java
 
