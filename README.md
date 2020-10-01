@@ -7,4 +7,6 @@ ___
 
 Added:
 - Kadane's Algorithm 
+- Paranthesis checker
+- Longest substring
 ___ 
